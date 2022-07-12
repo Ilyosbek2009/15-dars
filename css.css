@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+}
+
+.section_5 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #A26779;
+    border-radius: 0px;
+}
+
+.left {
+    padding: 39px 61px 39px 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.left :nth-child(1) {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 127% */
+
+    letter-spacing: 0.5px;
+
+    color: #B2B2B2;
+}
+
+.left .plar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.plar span {
+    width: 274px;
+}
+
+.salom {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.salom p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height, or 158% */
+
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #B2B2B2;
+}
+
+.section_6 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url(./img/Rectangle\ \(1\).png);
+    padding: 119px 0 0 40px;
+}
+
+.section_6 :nth-child(1) {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 127% */
+
+    letter-spacing: 0.5px;
+    margin-bottom: 11px;
+    color: #262626;
+}
+
+.section_6 :nth-child(2) {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    /* identical to box height, or 128% */
+    margin-bottom: 39px;
+    letter-spacing: 0.5px;
+
+    color: #262626;
+}
+
+.section_6 :nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* or 119% */
+    width: 278px;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+    color: #262626;
+}
+
+.section_6 :nth-child(4) {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    /* identical to box height, or 173% */
+
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    color: #262626;
+}
